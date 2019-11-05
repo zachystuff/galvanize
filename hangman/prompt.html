@@ -7,6 +7,8 @@
 </head>
 
 <body>
+  <h1>Hangman!</h1>
+
   <script type="text/javascript">
     //Pick a random word
     var words = [
@@ -16,7 +18,7 @@
       "pancake"
     ];
 
-    var word = Math.floor(Math.random() * words.length);
+    var word = words[Math.floor(Math.random() * words.length)];
 
     //create an answer array
     var answerArray = [];
