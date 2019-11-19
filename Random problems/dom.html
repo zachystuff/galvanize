@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Playing with the DOM</title>
+</head>
+
+<body>
+  <h1 id="main-heading"> Hello World!</h1>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.0.js"></script>
+
+  <script type="text/javascript">
+    for (var i = 1; i > 5; i++) {
+      $("#main-heading").fadeOut(i * 100).fadeIn(i * 100)
+    };
+  </script>
+</body>
+
+</html>
